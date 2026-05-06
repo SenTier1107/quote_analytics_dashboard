@@ -637,35 +637,8 @@ def embedding_recommend_ui(limit):
 
 
 def create_ui():
-    with gr.Blocks(
-        title="명언 분석 · 추천 대시보드",
-        theme=gr.themes.Soft(),
-        css="""
-    button.lg.primary,
-    button.primary {
-        background: linear-gradient(135deg, #f7971e, #e65c00) !important;
-        border: none !important;
-        color: white !important;
-    }
-    button.lg.primary:hover,
-    button.primary:hover {
-        background: linear-gradient(135deg, #e65c00, #bf360c) !important;
-    }
-
-    /* 탭 전체 너비 균등 배분 */
-    div[role="tablist"] {
-        display: flex !important;
-        width: 100% !important;
-    }
-    div[role="tablist"] button {
-        flex: 1 !important;
-        text-align: center !important;
-        font-size: 14px !important;
-        font-weight: 600 !important;
-    }
-"""
-    ) as demo:
-        gr.Markdown("#  명언 분석 · 추천 대시보드")
+    with gr.Blocks() as demo:
+        gr.Markdown("# 명언 분석 · 추천 대시보드")
         gr.Markdown("명언 데이터를 수집하고, 분석하고, 개인 취향에 맞게 추천하는 통합 대시보드입니다.")
 
         with gr.Tab(" 홈"):
