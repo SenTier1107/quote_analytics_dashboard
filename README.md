@@ -3,9 +3,8 @@ title: Quote Analytics Dashboard
 emoji: 📊
 colorFrom: red
 colorTo: purple
-sdk: gradio
-sdk_version: 6.14.0
-app_file: main.py
+sdk: docker
+app_port: 7860
 pinned: false
 ---
 
