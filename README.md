@@ -7,7 +7,7 @@ app_port: 7860
 pinned: false
 ---
 
-# 📊 명언 분석 · 추천 대시보드
+#  명언 분석 · 추천 대시보드
 
 > quotes.toscrape.com의 명언 데이터를 수집·분석·추천하는 FastAPI + Gradio 대시보드
 
@@ -17,7 +17,7 @@ pinned: false
 
 ---
 
-## 📋 프로젝트 개요
+##  프로젝트 개요
 
 `quotes.toscrape.com`에서 명언 데이터를 크롤링하여 SQLite에 저장하고,
 FastAPI 기반 CRUD API와 Gradio 대시보드를 통해 데이터를 관리·분석·추천하는 시스템입니다.
@@ -39,7 +39,7 @@ FastAPI 기반 CRUD API와 Gradio 대시보드를 통해 데이터를 관리·�
 
 ---
 
-## 🚀 주요 기능
+##  주요 기능
 
 ### 1. 데이터 수집
 - quotes.toscrape.com에서 명언, 저자, 태그 크롤링 (100개+)
@@ -72,7 +72,7 @@ FastAPI 기반 CRUD API와 Gradio 대시보드를 통해 데이터를 관리·�
 
 ---
 
-## 📁 프로젝트 구조
+##  프로젝트 구조
 
 analyzers/      TF-IDF, 유사도, 네트워크 분석
 api/            FastAPI 라우터 (CRUD)
