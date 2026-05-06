@@ -14,10 +14,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 소스 코드 복사
 COPY . .
 
-# 시드 스크립트 실행 (DB 초기화 + 크롤링)
-RUN python scripts/seed.py
-RUN python scripts/seed_authors.py
-RUN python scripts/build_embeddings.py
+# 시드 스크립트 실행 — PYTHONPATH 설정으로 core 모듈 인식
+RUN PYTHONPATH=/app python scripts/seed.py
+RUN PYTHONPATH=/app python scripts/seed_authors.py
+RUN PYTHONPATH=/app python scripts/build_embeddings.py
 
 # 포트 설정
 EXPOSE 7860
