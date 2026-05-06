@@ -1,0 +1,12 @@
+lee/
+**/__pycache__/
+__pycache__/
+*.pyc
+*.pyo
+.env
+quotes.db
+assets/cards/
+.cache/
+*.egg-info/
+dist/
+build/

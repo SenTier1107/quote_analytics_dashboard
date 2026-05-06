@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+gradio
+httpx
+beautifulsoup4
+pydantic
+pandas
+matplotlib
+wordcloud
+scikit-learn
+sentence-transformers
+networkx
+Pillow
+numpy
