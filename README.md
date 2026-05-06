@@ -1,7 +1,7 @@
 ---
 title: Quote Analytics Dashboard
 emoji: 📊
-colorFrom: orange
+colorFrom: red
 colorTo: purple
 sdk: gradio
 sdk_version: 4.0.0
