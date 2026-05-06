@@ -29,7 +29,6 @@ def root():
         "gradio": "/dashboard"
     }
 
-
 demo = create_ui()
 demo.theme = gr.themes.Soft()
-app = gr.mount_gradio_app(app, demo, path="/dashboard", title="명언 분석 · 추천 대시보드")
+app = gr.mount_gradio_app(app, demo, path="/dashboard")
